@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "myskin" # "default"  "air", "aqua", "contrast", , "d
 
 # Site Settings
 locale                   : "ko-KR" # 블로그 사용 언어
-title                    : "Heoni Tech" # 블로그 타이틀
+title                    : "블로그 타이틀" # 블로그 타이틀
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Heoni🍯"
-description              : "공부 & 일상 블로그"
-url                      : "https://heoni00.github.io"
+name                     : "블로그 유저 닉네임"
+description              : "블로그 간단 설명"
+url                      : "https://유저이름.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "heoni00/comments" #댓글 경로 / github name/repository
+repository               : "유저이름/comments" #댓글 경로 / github name/repository
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png" # 타이틀 옆 로고
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -33,7 +33,7 @@ words_per_minute         : 200
 comments: # 블로그 댓글 활용
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : #"heoni00-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : #"유저이름-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -103,21 +103,21 @@ analytics: # 블로그 접근 경로 확인 코드
 
 # Site Author / 사이드바 소개 부분
 author:
-  name             : "꿈 양봉자🍯"
+  name             : "닉네임"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "Today I grew up"
-  location         : "Junju"
+  bio              : "간단한 글귀"
+  location         : "사는 지역"
   
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:chh96077@gmail.com"
+      url: "mailto:이메일주소@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/heoni00"
+      url: "https://github.com/유저이름"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/0ldcar_"
+      url: "https://www.instagram.com/인스타 아이디"
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -134,7 +134,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/heoni00"
+      url: "https://github.com/유저이름"
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
       # url:
